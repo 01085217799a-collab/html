@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>계산기</title>
+  <script>
+
+    function calculate(){
+      let exp=document.getElementById("exp");
+      let result=document.getElementById("result");
+      result.Value=eval(exp.Value);
+
+    }
+  </script>
+</head>
+<body>
+  <h3> 전자계산기</h3>
+  <hr>
+  라ㅣㅇ
+  <br><br>
+  <form>
+    식 <input type="text" id="exp" value=""/><br/>
+    값  <input type="text" id="result" /><br/>
+    <input type="button"  value="계산" onclick="calculate()">
+
+  </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
